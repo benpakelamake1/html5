@@ -1,0 +1,49 @@
+.apellidos {
+    background-image: url(img.png);
+    background-repeat: no-repeat;
+    background-position: 3px center;
+    background-size: 15px 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px ;
+    border: 5px;
+    border-radius: 1px;
+    background-color: rgb(46, 79, 170);
+}
+
+.apellidos-image {
+    padding-left: 20px;
+}
+
+.proveedor {
+    background-image: url(card.png);
+    background-repeat: no-repeat;
+    background-position: 3px center;
+    background-size: 15px 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px ;
+    padding-right: 1px;
+    border: 5px;
+    border-radius: 1px;
+    background-color: rgb(43, 70, 145);
+}
+
+.limpiar {
+    background-color: rgb(216, 25, 88);
+    padding: 5px;
+    
+}
+
+::placeholder {
+    padding-left: 10px;
+    border: 0px;
+}
+
+body {
+    text-align: left;
+    padding-top: 300px;
+    padding-left: 600px;
+    padding-right: 600px;
+    background-color: rgb(35, 31, 61);
+    }

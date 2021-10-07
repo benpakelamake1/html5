@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Formulario para singar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!---->
+
+    <form class="box">
+        <h1>Formulario para hacer la r4p4ci0n</h1>
+        <label for="nombre">Nombre</label>
+        <input id="nombre" name="Nombre" type="text" placeholder="Ingrese su nombre" required/>
+        <br><br>
+        <label for="apellido">Apellido</label>
+        <input id="apellido" type="text" name="apellido" placeholder="Ingrese su apellido" required>
+        <br><br>
+        <label for="pais">País</label>
+        <input type="text" name="pais" id="pais" placeholder="Ingrese su pais" required>
+        <br><br>
+        <label for="provincia o ciudad">Provincia o Ciudad</label>
+        <input type="text" name="provincia o ciudad" id="provincia o ciudad" placeholder="Ingrese una provincia o ciudad" required>
+        <br><br>
+        <label for="fecha">Fecha de nacimiento</label>
+        <input type="date" name="fecha" id="fecha" placeholder="Ingrese una fecha" required>
+        <br><br>
+        <label for="genero">Genero</label>
+        <input list="genero" placeholder="Seleccione su genero" required>
+        <datalist id="genero">
+            <option value="Hombre"></option>
+            <option value="Mujer"></option>
+            <option value="Homosexual"></option>
+            <option value="Lesbiana"></option>
+            <option value="Otro"></option>
+            <option value="Prefiero no contestar"></option>
+        </datalist>
+        <br><br>
+        <label for="cita">¿A quien desea conocer?</label>
+        <input list="cita" placeholder="Seleccione su cita" required>
+        <datalist id="cita">
+            <option value="Hombre"></option>
+            <option value="Mujer"></option>
+            <option value="Homosexual"></option>
+            <option value="Lesbiana"></option>
+            <option value="Otro"></option>
+        </datalist>
+        <br><br>
+        <label for="comentario">Cualidades de la persona que desea conocer</label><br>
+        <textarea name="comentario" id="comentario" cols="70" rows="10" placeholder="Ingrese sus prefencias"></textarea required>
+        <br><br>
+        <label for="imagen">Suba una imagen</label>
+        <input type="file" id="imagen" accept=".jgp, image/png, .jpeg" required>
+        <br><br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
